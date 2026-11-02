@@ -1,0 +1,5 @@
+---
+title: "Project method"
+---
+
+{{< include README.md >}}

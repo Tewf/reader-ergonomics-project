@@ -1,12 +1,14 @@
 # Project
 
-> How one person prepares and runs a project, from a problem to its result, with the fewest round trips: scope, review, baseline, plan, execution, refinement, each step a topic; and the folder a job leaves behind. Scope only; the review is not started.
+> How one person prepares and runs a project, from a problem to its result, with the fewest round trips: scope, review, baseline, plan, execution, refinement, each step a topic; and the folder a job leaves behind. Scope, and a first-pass review of 38 sources with a named baseline.
 
 Each page's markdown source is served at the same path with a .md extension. This index is written by hand; AGENTS.md says to keep it in step.
 
 ## The repository
 
 - [Project](https://tewf.github.io/reader-ergonomics-project/README.md): the scope, the first job and the questions its review must answer
+- [Evidence](https://tewf.github.io/reader-ergonomics-project/evidence/README.md): the review on the method of a project and its bibliography
+- [Baseline](https://tewf.github.io/reader-ergonomics-project/evidence/project-method/baseline.md): B1, the process and trail the practice is compared with
 - [Decisions](https://tewf.github.io/reader-ergonomics-project/decisions/README.md): one record per choice that shapes the repository
 
 ## Contributing
