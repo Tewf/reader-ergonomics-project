@@ -10,9 +10,9 @@ projet est le sujet ; les documents qu'il produit relèvent des genres.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-02) :** mis en place ; rien n'est encore écrit au-delà du périmètre. Le premier travail est une revue
-> de littérature, non commencée. Le nom est provisoire jusqu'à ce que la première étape de cette revue dise comment le
-> domaine nomme la chose. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
+> **État (2026-11-02) :** la première passe de la revue de littérature est écrite : 38 sources, cinq étapes, une
+> référence nommée. Rien d'autre n'est écrit au-delà du périmètre. Le nom reste, pour la raison de la décision 0002.
+> Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
 > reader-ergonomics. Les corrections sont bienvenues sous forme d'issues.
@@ -65,10 +65,10 @@ digraph where_it_sits {
 
 ## Le premier travail : une revue de littérature
 
-Non commencée. Elle suit l'ordre d'une revue de thèse, et elle est finie quand elle peut nommer la référence.
+Une première passe est faite, dans [evidence/project-method](evidence/project-method/). Elle suit l'ordre d'une revue de thèse, et elle est finie quand elle peut nommer la référence.
 
-1. **Cadrer :** le problème en une phrase, et comment chaque domaine le nomme. Le dépôt peut être renommé alors ;
-   GitHub redirige l'ancienne adresse.
+1. **Cadrer :** le problème en une phrase, et comment chaque domaine le nomme. La revue n'a trouvé aucun nom
+   unique, donc le dépôt garde le sien.
 2. **Revue :** chaque nom ci-dessous, cherché par son nom académique, son acronyme et son auteur ; les synthèses d'abord.
    - la recherche en science de la conception (design science) et ses modèles de processus ;
    - la méthodologie de la recherche : comment une thèse est cadrée, revue et positionnée avant toute construction ;
@@ -79,6 +79,31 @@ Non commencée. Elle suit l'ordre d'une revue de thèse, et elle est finie quand
 3. **État de l'art, et le dossier contre.**
 4. **Positionnement :** ce que ce dépôt demande et que le domaine ne répond pas déjà.
 5. **Référence :** la méthode que le mainteneur suit déjà, écrite, comparée au meilleur processus trouvé par la revue.
+
+## Ce que la revue a trouvé
+
+Une première passe de 38 sources, 33 formelles et 5 grises ; seize œuvres formelles sont localisées, non ouvertes ([protocole](evidence/project-method/protocol.md)).
+
+- **Aucune étape n'est mesurée.** Aucune source n'isole un périmètre écrit, une référence nommée ou une liste des décisions
+  de la personne et ne mesure le travail refait. Ce sont des conventions, non testées ([revue](evidence/project-method/review.md)).
+- **La cause du travail refait est la spécification hâtive.** Un rapport d'experts chiffre le travail refait évitable à 40 à
+  50 pour cent de l'effort. Il nomme des exigences spécifiées à la hâte comme source majeure (Boehm 2001). Un coût fixe de
+  100 fois pour un défaut tardif n'est pas étayé ([contre](evidence/project-method/against.md)).
+- **Le domaine n'a pas d'étape de revue.** Le processus de la science de la conception nomme des objectifs et une
+  évaluation contre eux. Une cible de comparaison s'y trouve, mais aucune activité de revue de littérature (Peffers 2006).
+- **La trace est une pratique sans test.** Les guides s'accordent sur un README, un dossier par projet et un journal daté
+  (Noble 2009 ; Wilson 2017). Aucune étude ne teste qu'une seconde personne puisse reprendre à partir d'eux.
+- **La méthode finit là où le genre commence.** Le processus se termine par la communication ; la forme d'un document
+  lui est extérieure ([positionnement](evidence/project-method/position.md)).
+
+Les réponses aux quatre questions sont dans [la revue](evidence/project-method/review.md).
+
+## La référence
+
+**B1** est les six activités du processus de recherche en science de la conception (Peffers 2006) pour les étapes, et
+l'organisation de projet de Noble 2009 et Wilson 2017 pour la trace. La pratique du mainteneur, écrite pour cette revue,
+lui est comparée par des travaux appariés : allers-retours, travail refait et questions d'une seconde personne. La
+comparaison est nommée, non menée ([référence](evidence/project-method/baseline.md)).
 
 ## Questions auxquelles la revue doit répondre
 
@@ -106,6 +131,7 @@ sur master construit aussi le site, [tewf.github.io/reader-ergonomics-project](h
 
 | Partie | Résumé |
 |---|---|
+| [evidence](evidence/) | la revue derrière ce dépôt : une première passe sur la méthode d'un projet, et la bibliographie |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouvrant sur la décision en une phrase |
 
 ## Licence

@@ -10,9 +10,9 @@ documents it produces belong to the genres.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-02):** set up; nothing is written yet beyond the scope. The first job is a literature review, not
-> started. The name is provisional until that review's first step says what the field calls this. It is not an
-> official standard, not a peer-reviewed study and not a new result.
+> **Status (2026-11-02):** the first pass of the literature review is written: 38 sources, five steps, a named baseline.
+> Nothing else is written beyond the scope. The name stays, for the reason in decision 0002. It is not an official
+> standard, not a peer-reviewed study and not a new result.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
 > reader-ergonomics was made. Corrections are welcome as issues.
@@ -65,10 +65,10 @@ digraph where_it_sits {
 
 ## The first job: a literature review
 
-Not started. It follows the order of a thesis review, and it is finished when it can name the baseline.
+A first pass is done, in [evidence/project-method](evidence/project-method/). It follows the order of a thesis review, and it is finished when it can name the baseline.
 
-1. **Frame:** the problem in one sentence, and what each field calls it. The repository may be renamed then; GitHub
-   redirects the old address.
+1. **Frame:** the problem in one sentence, and what each field calls it. The review found no single name, so the
+   repository keeps its own.
 2. **Review:** each name below, searched by its academic name, its acronym and its author; surveys first.
    - design science research, and its process models;
    - research methodology: how a thesis is framed, reviewed and positioned before anything is built;
@@ -80,6 +80,31 @@ Not started. It follows the order of a thesis review, and it is finished when it
 4. **Position:** what this repository asks that the field does not already answer.
 5. **Baseline:** the method the maintainer already follows, written down, compared with the best process the review
    found.
+
+## What the review found
+
+A first pass of 38 sources, 33 formal and 5 grey; sixteen formal works are located, not opened ([protocol](evidence/project-method/protocol.md)).
+
+- **No step is measured.** No source isolates a written scope, a named baseline or a list of the person's decisions and
+  measures rework. These stay conventions, untested ([review](evidence/project-method/review.md)).
+- **The cause of rework is hasty specification.** An expert report puts avoidable rework at 40 to 50 percent of effort and
+  names hastily specified requirements as a major source (Boehm 2001). A fixed 100-times cost of late defects is not
+  supported ([against](evidence/project-method/against.md)).
+- **The field has no review step.** The design science process names objectives and evaluation against them, so a
+  comparison target is there, but no activity for a literature review (Peffers 2006).
+- **The trail is practice without a test.** Guides agree on a README, a folder per project and a dated log (Noble 2009;
+  Wilson 2017). No study tests that a second person can resume from them.
+- **The method ends where the genre begins.** The process ends in communication; a document's shape is outside it
+  ([position](evidence/project-method/position.md)).
+
+Answers to the four questions are in [the review](evidence/project-method/review.md).
+
+## The baseline
+
+**B1** is the six activities of the design science research process (Peffers 2006) for the steps, and the project
+organization of Noble 2009 and Wilson 2017 for the trail. The maintainer's practice, written down for this review, is
+compared with it by paired jobs: round trips, rework and the questions a second person asks. The comparison is named,
+not run ([baseline](evidence/project-method/baseline.md)).
 
 ## Questions the review must answer
 
@@ -107,6 +132,7 @@ to master also renders the site, [tewf.github.io/reader-ergonomics-project](http
 
 | Part | Summary |
 |---|---|
+| [evidence](evidence/) | the review behind this repository: a first pass on the method of a project, and the bibliography |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
 
 ## Licence

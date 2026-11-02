@@ -11,3 +11,66 @@ path = "decisions"
 question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: `decisions` is the folder the decision-record shape names for its records; it holds the README and record 0001 today, and grows one file per choice."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "85 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "348d0f6cab5c"
+answer = "One role: the French front page, from `Le premier travail : une revue de littérature` to `La référence`, the same state as `README.md`; it stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "9dfc9650da17"
+answer = "One role: the front page, from `The first job: a literature review` to `The baseline`, with the scope, the findings and the checks under their headings; it stays whole."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/project-method/protocol.md"
+question = "reads about equally as explanation and how-to: one mode per document?"
+file = "d46a335dde45"
+answer = "Reference: the record of the searches, read for `Formal search` and `Grey search`; its numbered sections are looked up, not followed as a task."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/against.md"
+question = "the name 'against' and the opening are far apart in meaning (0.09): does the name predict the content?"
+file = "c09cc2fc6b0c"
+answer = "Yes: the step that holds the case against, as it opens: `The evidence against the repository's rules`, with the controversies under their headings."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/frame.md"
+question = "the name 'frame' and the opening are far apart in meaning (0.19): does the name predict the content?"
+file = "d4da77cc73af"
+answer = "Yes: the review's step 1, as it opens: `Step 1 of the review on the method of a project`, fixing the problem and the names before the search."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/position.md"
+question = "the name 'position' and the opening are far apart in meaning (0.07): does the name predict the content?"
+file = "827884a861fc"
+answer = "Yes: the review's step 4, as it opens: `what the evidence allows this repository to claim`, and what it would add."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/protocol.md"
+question = "the name 'protocol' and the opening are far apart in meaning (0.11): does the name predict the content?"
+file = "d46a335dde45"
+answer = "Yes: the protocol, as it opens: `Every search, count and rule of this first pass`, the record from which another reviewer reruns it."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/state-of-the-art.md"
+question = "the name 'state' and the opening are far apart in meaning (-0.03): does the name predict the content?"
+file = "5fbb1bf4eb9a"
+answer = "Yes: the review's step 3, as it opens: `the best evidence apart from the practice most adopted`, held per question."
+
+[[answer]]
+check = "section-cohesion"
+path = "evidence/project-method/against.md"
+question = "section 'Weak measurement of frameworks' is far from every other section (0.23): a second role?"
+file = "c09cc2fc6b0c"
+answer = "No second role: `Weak measurement of frameworks` is one more kind of evidence against, beside `Success figures` and `Teaching heuristics`."
