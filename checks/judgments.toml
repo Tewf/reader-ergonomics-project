@@ -16,14 +16,14 @@ answer = "It stays: `decisions` is the folder the decision-record shape names fo
 check = "logical-lines"
 path = "README.fr.md"
 question = "85 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "348d0f6cab5c"
+file = "905e17b34ac9"
 answer = "One role: the French front page, from `Le premier travail : une revue de littérature` to `La référence`, the same state as `README.md`; it stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "README.md"
 question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "9dfc9650da17"
+file = "0cd7c22690fa"
 answer = "One role: the front page, from `The first job: a literature review` to `The baseline`, with the scope, the findings and the checks under their headings; it stays whole."
 
 [[answer]]
