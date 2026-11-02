@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If this repository helps you, you may cite it as below. It is an informal,
+  work-in-progress synthesis of published research, written with Claude, an AI
+  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  and not a new result.
+title: "reader-ergonomics-project (work in progress)"
+abstract: >-
+  How one person prepares and runs a project, from a problem to its result, with the fewest round trips: scope, review, baseline, plan, execution, refinement, each step a topic; and the folder a job leaves behind. Scope only; the review is not started.
+type: software
+authors:
+  - name: "Tewf"
+repository-code: "https://github.com/Tewf/reader-ergonomics-project"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - project method
+  - research methodology
+  - design science
+  - topic
+  - documentation
+  - literature review
