@@ -86,10 +86,10 @@ Une première passe de 38 sources, 33 formelles et 5 grises ; seize œuvres form
 
 - **Aucune étape n'est mesurée.** Aucune source n'isole un périmètre écrit, une référence nommée ou une liste des décisions
   de la personne et ne mesure le travail refait. Ce sont des conventions, non testées ([revue](evidence/project-method/review.md)).
-- **La cause du travail refait est la spécification hâtive.** Un rapport d'experts chiffre le travail refait évitable à 40 à
-  50 pour cent de l'effort. Il nomme des exigences spécifiées à la hâte comme source majeure (Boehm 2001). Un coût fixe de
+- **Une cause majeure du travail refait évitable est la spécification hâtive.** Un rapport d'experts chiffre le travail refait évitable à 40 à
+  50 pour cent de l'effort. Il nomme des exigences spécifiées à la hâte comme source majeure (Boehm 2001). Menzies 2017 ne trouve aucun effet du retard sur 171 projets : un coût fixe de
   100 fois pour un défaut tardif n'est pas étayé ([contre](evidence/project-method/against.md)).
-- **Le domaine n'a pas d'étape de revue.** Le processus de la science de la conception nomme des objectifs et une
+- **Le processus de la science de la conception n'a pas d'étape de revue.** Il nomme des objectifs et une
   évaluation contre eux. Une cible de comparaison s'y trouve, mais aucune activité de revue de littérature (Peffers 2006).
 - **La trace est une pratique sans test.** Les guides s'accordent sur un README, un dossier par projet et un journal daté
   (Noble 2009 ; Wilson 2017). Aucune étude ne teste qu'une seconde personne puisse reprendre à partir d'eux.

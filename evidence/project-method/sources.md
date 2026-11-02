@@ -52,7 +52,7 @@ Quality is the evidence grade, with what the grade rests on. A number from an ab
 | Kellogg 1988 | formal | lead (brief) | summaries of the abstract | measured: experiments, judged quality (secondary) | review Q2 |
 | Noble 2009 | formal | S5 | text, through a summary | convention: a practice guide | review Q3, baseline |
 | Sandve 2013 | formal | S5 | rule titles | convention: a practice guide | review Q3 |
-| Wilson 2017 | formal | S5 | sections 3a, 4a and 5f, through a summary; abstract | convention: a practice guide; 11,000 learners is secondary | review Q3, baseline |
+| Wilson 2017 | formal | S5 | sections 3a, 4a and 5f, and the overview, in the text | convention: a practice guide; over 11,000 people since 2010, in the text | review Q3, baseline |
 | Parnin 2010 | formal | S13 | located; abstract not retrieved | measured, by study of programmers; not opened | review Q3 |
 | Altmann 2002 | formal | S13 | abstract | measured by simulation against latency and error data | review Q3 |
 | Prechelt 2001b | formal | S6 | abstract | measured: a controlled experiment (secondary) | review Q1, against |

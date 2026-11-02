@@ -25,7 +25,7 @@ Step 2 of the review: what each strand holds, by question. Existing reviews come
 
 - Lund 2016 makes the call: "no new studies should be done without a systematic review of existing evidence".
 - Glasziou 2014 reports, in its abstract, that investigators of new trials rarely set their findings in the context of a systematic review.
-- It gives 40 to 89 percent of intervention descriptions as not replicable, across studies of published trials (secondary).
+- It reports that 40 to 89 percent of published trials were not replicable, because their interventions were poorly described (secondary).
 - The evidence measures the neglect. No source found measures that doing the review changes the outcome of a project.
 - Grade: convention, untested for effect; the neglect is measured, descriptive.
 - Webster 2002 and Booth 2016 were located as guides to reviewing; not opened.
@@ -63,7 +63,7 @@ Step 2 of the review: what each strand holds, by question. Existing reviews come
 ## Strand F: the trail
 
 - Noble 2009: one folder per project with data, results, doc and source; dated experiment folders; a dated notebook. The reader is "someone else", often the author later.
-- Wilson 2017: an overview file (3a), a folder per project (4a), a change log serving as a lab notebook (5f), from workshops it says reached over 11,000 people (secondary).
+- Wilson 2017: an overview file (3a), a folder per project (4a), a change log serving as a lab notebook (5f). Its workshops reached over 11,000 people since 2010.
 - Sandve 2013: ten rules, first "for every result, keep track of how it was produced".
 - Altmann 2002 models memory for goals and the cost of interruption, fitted to a puzzle task. Parnin 2010 on programmers was located, not opened.
 - Grade: convention, untested. These guides agree with each other. No study tests that a set of files lets a second person resume.

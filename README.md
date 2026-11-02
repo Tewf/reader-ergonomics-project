@@ -87,10 +87,10 @@ A first pass of 38 sources, 33 formal and 5 grey; sixteen formal works are locat
 
 - **No step is measured.** No source isolates a written scope, a named baseline or a list of the person's decisions and
   measures rework. These stay conventions, untested ([review](evidence/project-method/review.md)).
-- **The cause of rework is hasty specification.** An expert report puts avoidable rework at 40 to 50 percent of effort and
-  names hastily specified requirements as a major source (Boehm 2001). A fixed 100-times cost of late defects is not
-  supported ([against](evidence/project-method/against.md)).
-- **The field has no review step.** The design science process names objectives and evaluation against them, so a
+- **A major cause of avoidable rework is hasty specification.** An expert report puts avoidable rework at 40 to 50 percent of effort and
+  names hastily specified requirements as a major source (Boehm 2001). Menzies 2017 found no delayed-issue effect in 171
+  projects, so a fixed 100-times cost of late defects is not supported ([against](evidence/project-method/against.md)).
+- **The design science process has no literature-review step.** It names objectives and evaluation against them, so a
   comparison target is there, but no activity for a literature review (Peffers 2006).
 - **The trail is practice without a test.** Guides agree on a README, a folder per project and a dated log (Noble 2009;
   Wilson 2017). No study tests that a second person can resume from them.
