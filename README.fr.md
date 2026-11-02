@@ -48,6 +48,8 @@ digraph where_it_sits {
 - **Il obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md)** (v1.19.2) et exécute ses vérifications en CI.
 - **Il ne pointe que vers le bas.** Les deux sont épinglés par commit ; aucun ne pointe vers ce dépôt. Son pendant avec
   un modèle dans la boucle est [ai-augmented-project](https://github.com/Tewf/ai-augmented-project), un niveau au-dessus.
+- **La famille qu'il reflète** est cartographiée dans [ai-augmented](https://github.com/Tewf/ai-augmented) ; le pont entre les deux est
+  [reader-ergonomics-blueprint](https://github.com/Tewf/reader-ergonomics-blueprint), le topic avec un vérificateur sur chaque partie.
 
 ## Périmètre
 

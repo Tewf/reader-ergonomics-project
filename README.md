@@ -48,6 +48,8 @@ digraph where_it_sits {
 - **It obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md)** (v1.19.2) and runs its checks in CI.
 - **It links down only.** Both are pinned by commit; neither links up to this repository. Its counterpart with a model
   in the loop is [ai-augmented-project](https://github.com/Tewf/ai-augmented-project), one level above.
+- **The family it mirrors** is mapped at [ai-augmented](https://github.com/Tewf/ai-augmented); the bridge between the two is
+  [reader-ergonomics-blueprint](https://github.com/Tewf/reader-ergonomics-blueprint), the topic with a checker on each part.
 
 ## Scope
 
