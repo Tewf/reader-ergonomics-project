@@ -28,3 +28,12 @@ family = ["reader-ergonomics",
           "reader-ergonomics-blueprint",
           "reader-ergonomics-software-design"]
 shared_links = []
+
+# The shape this repository adds; its examples sit under shapes/, so the standard's default pattern would read them as shapes.
+[shape_example]
+files = ["shapes/project.md"]
+
+# The project-shape check, checks/local/project_shape.py: a folder whose root declares shapes/project.md has these parts,
+# beside the root, and its baseline part names a baseline.
+[project_shape]
+parts = ["problem.md", "scope.md", "review.md", "baseline.md", "plan.md", "trail.md"]

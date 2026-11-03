@@ -43,6 +43,7 @@ git -C ../reader-ergonomics archive b9732b9 | tar -x -C checks/out/standard   # 
 python3 checks/out/standard/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
 ```
 
+- Run the tests of the local checks: `python3 -m unittest discover -s checks`.
 - Fix every error. Read every warning.
 - Answer the questions in `checks/out/needs-judgment.md` in `checks/judgments.toml`, each answer quoting in backticks
   a word or heading of its own file.
