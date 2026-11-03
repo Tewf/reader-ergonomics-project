@@ -47,12 +47,12 @@ The project shape is meant to be copied and kept as your own. Copy it from a tag
 
    ```sh
    git clone https://github.com/Tewf/reader-ergonomics
-   git -C reader-ergonomics checkout 4f99372093729dacf982e9174e94f6b8793c513d
+   git -C reader-ergonomics checkout 2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a
    python3 reader-ergonomics/checks/run.py path/to/your/repository
    ```
 
 5. How to take your own version, and where a disagreement goes: the standard's
-   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/README.md#take-your-own-version).
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/README.md#take-your-own-version).
 
 ## Where it sits
 
@@ -82,7 +82,7 @@ digraph where_it_sits {
 
 - **It builds on the [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/shapes/topic.md)** (reader-ergonomics-topic v0.6.1): every step of a
   project is a topic, with its title, its summary and its parts.
-- **It obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/standard.md)** (v1.20.0) and runs its checks in CI.
+- **It obeys [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/standard.md)** (v1.21.0) and runs its checks in CI.
 - **It links down only.** Both are pinned by commit; neither links up to this repository. Its counterpart with a model
   in the loop is [ai-augmented-project](https://github.com/Tewf/ai-augmented-project), one level above.
 - **The family it mirrors** is mapped at [ai-augmented](https://github.com/Tewf/ai-augmented); the bridge between the two is
@@ -96,7 +96,7 @@ digraph where_it_sits {
 | in | each step written as a topic: one claim, its summary, its parts | the person does not get lost, and a reader can follow the reasoning |
 | in | what cuts round trips: what is decided before starting, what is the person's to decide, when the baseline is named | the cost of a project is mostly the work redone |
 | in | the folder a job leaves behind: what was asked, what was found, what was produced, where it lives | a second person, or the same one later, resumes from it |
-| out | the writing of any one document: a report, a design, a talk, a proof | the [reader-ergonomics family](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/extending.md) holds each genre's shape |
+| out | the writing of any one document: a report, a design, a talk, a proof | the [reader-ergonomics family](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/extending.md) holds each genre's shape |
 | out | the design document and the decision record | [reader-ergonomics-software-design](https://github.com/Tewf/reader-ergonomics-software-design) holds them; this links them where a step needs one |
 | out | a language model or a machine in the loop | [ai-augmented-project](https://github.com/Tewf/ai-augmented-project) |
 
