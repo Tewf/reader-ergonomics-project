@@ -146,3 +146,66 @@ path = "README.md"
 question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "f87cbc90e78f"
 answer = "They stay apart: `decisions` holds one record per choice and the front page lists them under `Contents`, so a new record changes both; the front page links the folder."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "102 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "ace9e60d68b4"
+answer = "It stays: `Projet` names one role, the front page of the repository. Its parts, the method, the findings and the baseline, are sections of that role, not roles of their own."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "99 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "3efb128a13f7"
+answer = "It stays: `Project` names one role, the front page of the repository. Its parts, the method, the findings and the baseline, are sections of that role, not roles of their own."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/project-method/protocol.md"
+question = "131 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "86b09c3cfa1f"
+answer = "It stays: `Protocol: how the pool was built` names one role, the record of one pool. Its sections are the steps of that record, not roles of their own."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "ace9e60d68b4"
+answer = "Link, do not share a folder: the front page of `Projet` points to the records in `decisions`, and a folder of records would mix the front page with them."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3efb128a13f7"
+answer = "Link, do not share a folder: the front page of `Project` points to the records in `decisions`, and a folder of records would mix the front page with them."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/project-method/protocol.md"
+question = "reads about equally as explanation and how-to: one mode per document?"
+file = "86b09c3cfa1f"
+answer = "Reference: the record of how the pool was built, read by its headings, such as `Formal search`. Its sections are looked up, not followed as a task."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/against.md"
+question = "the name 'against' and the opening are far apart in meaning (0.09): does the name predict the content?"
+file = "3a7451525df2"
+answer = "Yes: the opening, under the heading `Against`, sets out the case against the repository's own claims, as the name says."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/position.md"
+question = "the name 'position' and the opening are far apart in meaning (0.07): does the name predict the content?"
+file = "2d6dd97f2625"
+answer = "Yes: the opening, under the heading `Position`, sets out what is known, what is not found and what the repository can claim."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/protocol.md"
+question = "the name 'protocol' and the opening are far apart in meaning (0.11): does the name predict the content?"
+file = "86b09c3cfa1f"
+answer = "Yes: the heading `Protocol: how the pool was built` says what the file holds, and the opening sections follow it."
