@@ -1,6 +1,6 @@
 # Sources: the pool, its flow and its quality
 
-The pool of this first pass, read on 2026-11-02: 33 formal works and 5 grey sources. Searches are in [protocol](protocol.md); terms in [frame](frame.md).
+The pool of this first pass, read on 2026-11-02: 33 formal works and 5 grey sources. On 2026-11-03 two formal works were added by forward citation, so the pool is 35 formal and 5 grey. Searches are in [protocol](protocol.md); terms in [frame](frame.md).
 
 A source marked located was found and its record checked, but its text was not opened. A claim that rests on it is marked as such. Below 10 of 20, a grey source is an example of practice only.
 
@@ -11,10 +11,11 @@ A source marked located was found and its record checked, but its text was not o
 | Formal strings run | 14 (S1 to S7, S11 to S14 and the variants S2b, S3b, S3c); S14 screened, nothing included |
 | Grey strings run | 4 web strings and 4 direct visits |
 | Titles screened | up to 10 per string; the exact number was not logged |
+| Forward citations, 2026-11-03 | 3 works screened: 378 titles and 6 abstracts; 2 added (protocol, section 11) |
 | Reached through a string or a direct visit | 30 of the 38; several also named by the brief |
 | Reached only from the brief's leads or the reviewer's recall, then checked against a bibliographic record | 8 of the 38 (Simon 1969, Webster 2002, Garousi 2019, Kitchenham 2009, Polya 1945, Kellogg 1988, Flyvbjerg 2006, Booth 2016) |
 | Read in the text or the sections cited | 5 formal, 4 grey |
-| Read at abstract level | 11 formal |
+| Read at abstract level | 13 formal: 11 from the first pass, and Hohn 2002 and Mettler 2014 |
 | Read only through secondary summaries | 1 formal (Hembree 1992) |
 | Located, text not opened | 16 formal, 1 grey |
 | Grey scored | 4: three at 10 or more, one below |
@@ -58,6 +59,8 @@ Quality is the evidence grade, with what the grade rests on. A number from an ab
 | Prechelt 2001b | formal | S6 | abstract | measured: a controlled experiment (secondary) | review Q1, against |
 | Hayes 1997 | formal | S6 | located; not opened | measured, descriptive; report not opened | review Q1 |
 | Flyvbjerg 2006 | formal | lead (brief) | located; not opened | convention, not opened | position |
+| Hohn 2002 | formal | forward from Hembree 1992 | abstract | measured: two controlled experiments, 223 elementary students (secondary) | review strand C |
+| Mettler 2014 | formal | forward from Peffers 2006 | abstract | convention: a review of experiments in design science and a proposed evaluation framework, not tested (secondary) | review strands 0 and A, position |
 
 ## Grey sources
 

@@ -10,7 +10,7 @@ documents it produces belong to the genres.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-03):** version 0.1.0. Built: the first pass of the literature review, 38 sources, five steps, a named baseline;
+> **Status (2026-11-03):** version 0.1.0. Built: the first pass of the literature review, 40 sources, five steps, a named baseline;
 > the [card](standard.md) with four principles; the [project shape](shapes/project.md) with one filled example and a check with 19 unit tests.
 > Open: the comparison with the baseline is named, not run, and no step is measured. The name stays, for the reason in decision 0002. It is not an official
 > standard, not a peer-reviewed study and not a new result.
@@ -120,7 +120,7 @@ A first pass is done, in [evidence/project-method](evidence/project-method/). It
 
 ## What the review found
 
-A first pass of 38 sources, 33 formal and 5 grey; sixteen formal works are located, not opened ([protocol](evidence/project-method/protocol.md)).
+A first pass of 40 sources, 35 formal and 5 grey; sixteen formal works are located, not opened ([protocol](evidence/project-method/protocol.md)).
 
 - **No step is measured.** No source isolates a written scope, a named baseline or a list of the person's decisions and
   measures rework. These stay conventions, untested ([review](evidence/project-method/review.md)).
@@ -128,7 +128,8 @@ A first pass of 38 sources, 33 formal and 5 grey; sixteen formal works are locat
   names hastily specified requirements as a major source (Boehm 2001). Menzies 2017 found no delayed-issue effect in 171
   projects, so a fixed 100-times cost of late defects is not supported ([against](evidence/project-method/against.md)).
 - **The design science process has no literature-review step.** It names objectives and evaluation against them, so a
-  comparison target is there, but no activity for a literature review (Peffers 2006).
+  comparison target is there, but no activity for a literature review (Peffers 2006). A 2014 review of design science
+  experiments gives questions for evaluation, and no review step (Mettler 2014).
 - **The trail is practice without a test.** Guides agree on a README, a folder per project and a dated log (Noble 2009;
   Wilson 2017). No study tests that a second person can resume from them.
 - **The method ends where the genre begins.** The process ends in communication; a document's shape is outside it

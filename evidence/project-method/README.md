@@ -2,9 +2,9 @@
 
 The review behind this repository, a first pass of 38 sources. It asks which steps written before the work starts are measured to cut rework, and what a finished job must leave for a second person to resume it.
 
-- It holds 38 sources: 33 formal and 5 grey.
+- It holds 40 sources: 35 formal and 5 grey.
 - Grey: 3 score 10 or more of 20, 1 scores below it (an example of practice only) and 1 is located, not scored; none is a controlled study.
-- Formal: 5 read in the text or the sections cited, 11 at abstract level, 1 through secondary summaries, 16 located with the text not opened.
+- Formal: 5 read in the text or the sections cited, 13 at abstract level, 1 through secondary summaries, 16 located with the text not opened.
 - It is a first pass. Read the limits in [protocol](protocol.md) before relying on a number.
 
 ## Files

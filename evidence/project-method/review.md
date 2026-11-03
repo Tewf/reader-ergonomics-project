@@ -19,6 +19,8 @@ Step 2 of the review: what each strand holds, by question. Existing reviews come
 - Evaluation compares the objectives with observed results, then decides whether to iterate to design or to go on.
 - Communication is the last activity, and the paper may follow its structure.
 - Grade: convention. The model is a synthesis and a demonstration on two cases, not a test.
+- Mettler 2014 reviews experiments in design science and proposes an evaluation framework: questions to ask and pitfalls to avoid (secondary).
+- The abstract names no review step and no comparison target, so the framework sharpens evaluation without adding the missing step.
 - Hevner 2004, Gregor 2013 and Wieringa 2014 were located, not opened.
 
 ## Strand B: reviewing before building
@@ -35,7 +37,10 @@ Step 2 of the review: what each strand holds, by question. Existing reviews come
 - Polya 1945 and Schoenfeld 1985 were located, not opened.
 - Hembree 1992, in secondary summaries: checking work, drawing diagrams and using heuristics go with higher problem-solving scores.
 - The same summaries say heuristics had a clear effect only where teachers were trained in them, and that students told to follow fixed steps scored lower than students using flexible approaches.
-- Grade: measured, for students of mathematics; transfer to a person's own project is not tested.
+- Hohn 2002 reports two controlled experiments with 223 elementary students (secondary).
+- A named five-phase strategy, taught over several lessons, did better than traditional instruction, short term and delayed.
+- The abstract does not say whether students followed the phases as fixed steps, so the older warning about fixed steps is not tested here.
+- Grade: measured, for students of mathematics, now in two controlled experiments and the summaries; transfer to a person's own project is not tested.
 
 ## Strand D: frameworks and personal process
 

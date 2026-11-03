@@ -50,7 +50,7 @@ Counts are from OpenAlex, title and abstract, phrase search, on 2026-11-02, with
 
 - Zero results was not read as absence: S3c has 2 hits and the work was found by S3.
 - Three ways: each topic was searched by its academic name, its acronym where one exists (DSR, PSP) and an author (Peffers, Boehm, Hembree).
-- Snowballing: backward from Peffers 2006, which names Hevner 2004. No forward snowballing was done.
+- Snowballing: backward from Peffers 2006, which names Hevner 2004. Forward snowballing was done for three sources, in section 11.
 
 ## 5. Grey search
 
@@ -66,7 +66,7 @@ Counts are from OpenAlex, title and abstract, phrase search, on 2026-11-02, with
 
 - Effort bounded: up to 10 results per string.
 - Saturation: stop a string after 5 consecutive results that add no concept.
-- Pool bounded: 25 to 40 sources for a first pass; 38 were kept.
+- Pool bounded: 25 to 40 sources for a first pass; 40 are kept.
 
 ## 7. Selection
 
@@ -86,8 +86,48 @@ Garousi 2019, Table 7, 20 criteria, threshold 10. Scores are in [sources](source
 ## 10. Not searched, and limits
 
 - Not searched: Q/A sites, forums, talks, patents, practitioner surveys, PMBOK and PRINCE2 (paywalled), ISO 21502 (paywalled).
-- Not done: second rater, forward snowballing.
+- Not done: a second rater for the formal sources; forward snowballing beyond the three sources in section 11.
 - Sixteen formal works are located only; their claims here are leads, not findings.
 - One reviewer. Search engines personalise and change; counts differ on a repeat.
 - Counts of titles screened per string were not logged.
 - No sign-in, account or identity was sent to any service.
+
+## 11. Forward citations
+
+Run on 2026-11-03 through OpenAlex, with the key read from the environment. No account or identity was sent.
+
+The brief asks for the three sources the review cites most. In [review](review.md), five sources are cited twice: Nawaz 2022, Hembree 1992, Peffers 2006, Glasziou 2014 and Prechelt 2001b.
+
+The tie was broken in two steps:
+
+- Nawaz 2022 and Hembree 1992 are each cited in two strands. The other three are cited in one.
+- Peffers 2006 is then the most used across the repository, in the frame, the position, the baseline and the shapes.
+
+| Source | OpenAlex record | Citing works | Screened |
+|---|---|---|---|
+| Nawaz 2022 | W4200449942 | 7 | all 7, by title |
+| Hembree 1992 | W2020071675 | 171 | all 171, by title |
+| Peffers 2006 | W2311045093, the arXiv record of the paper | 480 | the 200 most cited, by title |
+
+- Strings: a citation filter on each record's identifier, sorted by citation count. Titles were read in that order.
+- The DESRIST paper has no separate record in OpenAlex under its title. A title search limited to 2006 found no match, so the arXiv record was used. Its citing works are not all the works of the 2006 paper.
+- Titles of 378 works were read. Six abstracts were read.
+- Four candidates had no abstract in their record. Their titles were read only: a planning case study (2015), a taxonomy of study design (2022), criteria of progress for design theories (2010) and a note on practitioner design science (2017).
+- Stop rule: not needed for the two complete lists. Of the 480 citing works of Peffers 2006, the 280 least cited were not read.
+
+Added, with the abstract read:
+
+- Hohn 2002, from Hembree 1992: a controlled comparison of a taught strategy with traditional instruction.
+- Mettler 2014, from Peffers 2006: a review of experiments in design science, with an evaluation framework.
+
+Each changes or sharpens one finding in [review](review.md).
+
+Screened, not added, with the abstract read: a 2006 study of heuristic literacy, a 2026 review of 104 articles on teacher knowledge, and a 2025 study of rework causes. They sharpen strands C and E.
+
+They stay out because the pool is held at 40, the bound in section 6. They are the first candidates for a later pass.
+
+Screened, not added, from the title of a 2025 requirements paper, which is not in the rework strand.
+
+Numbers read in abstracts are marked secondary. Hohn 2002 reports two experiments with 223 elementary students (secondary).
+
+Not searched: other citation indexes, and the citing works of the other 30 sources, which the brief did not ask for.

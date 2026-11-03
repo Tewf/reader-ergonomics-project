@@ -10,7 +10,7 @@ projet est le sujet ; les documents qu'il produit relèvent des genres.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-03) :** version 0.1.0. Fait : la première passe de la revue de littérature, 38 sources, cinq étapes, une
+> **État (2026-11-03) :** version 0.1.0. Fait : la première passe de la revue de littérature, 40 sources, cinq étapes, une
 > référence nommée ; la [fiche](standard.md) avec quatre principes ; la [forme du projet](shapes/project.md) avec un exemple rempli et une vérification de 19 tests unitaires.
 > Ouvert : la comparaison avec la référence est nommée, pas faite, et aucune étape n'est mesurée. Le nom reste, pour la raison de la décision 0002.
 > Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
@@ -109,7 +109,7 @@ Une première passe est faite, dans [evidence/project-method](evidence/project-m
 
 ## Ce que la revue a trouvé
 
-Une première passe de 38 sources, 33 formelles et 5 grises ; seize œuvres formelles sont localisées, non ouvertes ([protocole](evidence/project-method/protocol.md)).
+Une première passe de 40 sources, 35 formelles et 5 grises ; seize œuvres formelles sont localisées, non ouvertes ([protocole](evidence/project-method/protocol.md)).
 
 - **Aucune étape n'est mesurée.** Aucune source n'isole un périmètre écrit, une référence nommée ou une liste des décisions
   de la personne et ne mesure le travail refait. Ce sont des conventions, non testées ([revue](evidence/project-method/review.md)).
@@ -117,7 +117,7 @@ Une première passe de 38 sources, 33 formelles et 5 grises ; seize œuvres form
   50 pour cent de l'effort. Il nomme des exigences spécifiées à la hâte comme source majeure (Boehm 2001). Menzies 2017 ne trouve aucun effet du retard sur 171 projets : un coût fixe de
   100 fois pour un défaut tardif n'est pas étayé ([contre](evidence/project-method/against.md)).
 - **Le processus de la science de la conception n'a pas d'étape de revue.** Il nomme des objectifs et une
-  évaluation contre eux. Une cible de comparaison s'y trouve, mais aucune activité de revue de littérature (Peffers 2006).
+  évaluation contre eux. Une cible de comparaison s'y trouve, mais aucune activité de revue de littérature (Peffers 2006). Une revue de 2014 sur les expériences en science de la conception donne des questions d'évaluation, et aucune étape de revue (Mettler 2014).
 - **La trace est une pratique sans test.** Les guides s'accordent sur un README, un dossier par projet et un journal daté
   (Noble 2009 ; Wilson 2017). Aucune étude ne teste qu'une seconde personne puisse reprendre à partir d'eux.
 - **La méthode finit là où le genre commence.** Le processus se termine par la communication ; la forme d'un document
