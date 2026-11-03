@@ -37,3 +37,6 @@ files = ["shapes/project.md"]
 # beside the root, and its baseline part names a baseline.
 [project_shape]
 parts = ["problem.md", "scope.md", "review.md", "baseline.md", "plan.md", "trail.md"]
+
+[standard_card]
+facets = ["method"]   # the principle groups, in the order the card shows them
