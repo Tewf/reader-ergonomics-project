@@ -43,6 +43,10 @@ shape. The root's Shape line links this shape.
 No source isolates a written scope or a named baseline and measures rework
 ([the review's finding](../evidence/project-method/review.md); the grades are defined in the [position](../evidence/project-method/position.md)). The shape is a convention to test, not a result.
 
+## The rules
+
+A repository that holds several projects in this shape adds their skeleton files, such as `0*/problem.md`, to `[duplication] exempt` in `checks/config.toml`, because the skeleton is one shape, not one fact copied.
+
 ## Where it stops
 
 The shape ends where the genres begin. The plan may name the document the project will produce and link the shape of
