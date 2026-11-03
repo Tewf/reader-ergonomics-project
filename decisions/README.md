@@ -11,6 +11,7 @@ decision in one sentence under its title, then its status, context, decision and
 |---|---|
 | [0001 A repository of its own](0001-a-repository-of-its-own.md) | The method one person follows from a problem to its result is one problem, so it is one repository, set up before any work on it |
 | [0002 Keep the name, name the baseline](0002-keep-the-name-name-the-baseline.md) | The review found no single name for the problem, so the repository keeps its own, and B1 is the baseline the maintainer's practice is compared with |
+| [0003 A project is six topics, and a check reads them](0003-a-project-is-six-topics.md) | The shape of a project is a folder of six topics, and a check refuses a project that lacks a part or names no baseline |
 
 ## See also
 

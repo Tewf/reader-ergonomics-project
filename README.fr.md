@@ -11,7 +11,7 @@ projet est le sujet ; les documents qu'il produit relèvent des genres.
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
 > **État (2026-11-02) :** la première passe de la revue de littérature est écrite : 38 sources, cinq étapes, une
-> référence nommée. Rien d'autre n'est écrit au-delà du périmètre. Le nom reste, pour la raison de la décision 0002.
+> référence nommée. La [forme du projet](shapes/project.md) est écrite, avec un exemple rempli et une vérification (décision 0003). Le nom reste, pour la raison de la décision 0002.
 > Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
@@ -132,6 +132,7 @@ sur master construit aussi le site, [tewf.github.io/reader-ergonomics-project](h
 | Partie | Résumé |
 |---|---|
 | [evidence](evidence/) | la revue derrière ce dépôt : une première passe sur la méthode d'un projet, et la bibliographie |
+| [shapes](shapes/) | la forme du projet : six topics du problème au résultat, un exemple rempli, et la vérification qui les lit |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouvrant sur la décision en une phrase |
 
 ## Licence

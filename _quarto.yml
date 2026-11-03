@@ -20,6 +20,8 @@ website:
     left:
       - text: Evidence
         href: evidence/README.md
+      - text: Shapes
+        href: shapes/README.md
       - text: Decisions
         href: decisions/README.md
     right:
