@@ -9,7 +9,9 @@ read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814
    what is out, and which neighbour holds what is out.
 2. The first job is the review on the front page, in its five steps. A first pass is in [evidence/](evidence/) and names
    its baseline. The name stays (decision 0002).
-3. A fact that belongs to a neighbour is linked, never copied. A choice that shapes the repository gets a record in
+3. The card is [standard.md](standard.md): read the standard first, then the topic, then the card. Its table is
+   generated: after changing a principle, run `python3 checks/out/standard/checks/program/standard_card.py . --write`.
+4. A fact that belongs to a neighbour is linked, never copied. A choice that shapes the repository gets a record in
    [decisions/](decisions/).
 
 ## Rules for claims
@@ -43,7 +45,7 @@ git -C ../reader-ergonomics archive b9732b9 | tar -x -C checks/out/standard   # 
 python3 checks/out/standard/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
 ```
 
-- Run the tests of the local checks: `python3 -m unittest discover -s checks`.
+- Run the tests of the local checks (CI runs them too): `python3 -m unittest discover -s checks`.
 - Fix every error. Read every warning.
 - Answer the questions in `checks/out/needs-judgment.md` in `checks/judgments.toml`, each answer quoting in backticks
   a word or heading of its own file.

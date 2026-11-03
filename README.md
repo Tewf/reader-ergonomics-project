@@ -11,7 +11,7 @@ documents it produces belong to the genres.
 This page in French: [README.fr.md](README.fr.md).
 
 > **Status (2026-11-02):** the first pass of the literature review is written: 38 sources, five steps, a named baseline.
-> The [project shape](shapes/project.md) is written, with one filled example and a check (decision 0003). The name stays, for the reason in decision 0002. It is not an official
+> The [card](standard.md) holds four principles, the [project shape](shapes/project.md) has one filled example and a check (decisions 0003 and 0004). The name stays, for the reason in decision 0002. It is not an official
 > standard, not a peer-reviewed study and not a new result.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
@@ -133,6 +133,8 @@ to master also renders the site, [tewf.github.io/reader-ergonomics-project](http
 | Part | Summary |
 |---|---|
 | [evidence](evidence/) | the review behind this repository: a first pass on the method of a project, and the bibliography |
+| [standard](standard.md) | the card: four principles with their grades, read after the standard and the topic |
+| [principles](principles/) | one file per principle: the claim, its grade, its evidence and its check |
 | [shapes](shapes/) | the project shape: six topics from a problem to its result, a filled example, and the check that reads them |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
 

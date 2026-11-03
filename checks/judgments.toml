@@ -1,3 +1,5 @@
+
+
 [[answer]]
 check = "tree-shape"
 path = "checks"
@@ -76,22 +78,36 @@ file = ""
 answer = "It stays: `shapes/examples` holds the filled examples of the shapes, one folder per example, as the family's shape folders do; a second project would be a second entry."
 
 [[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "86 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "5bca93e26e8b"
-answer = "One role: the French front page, from `Le premier travail : une revue de littérature` to `La référence`, the same state as `README.md`; it stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "81fe278bd0b2"
-answer = "One role: the front page, from `The first job: a literature review` to `The baseline`, with the scope, the findings and the checks under their headings; it stays whole."
-
-[[answer]]
 check = "paraphrase"
 path = "evidence/project-method/frame.md"
 question = "says nearly what shapes/examples/first-job/problem.md (line 7) says, similarity 0.97: one fact in two places?"
 file = "d4da77cc73af"
 answer = "No: the frame holds the source under `The problem in one sentence`; the example's Problem line restates it on purpose, as the project shape asks of every project written in it, and links the frame."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "88 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "70d885f3dc06"
+answer = "One role: the French front page, from `Le premier travail : une revue de littérature` to `La référence`, the same state as `README.md`; it stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "85 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "821052a87dee"
+answer = "One role: the front page, from `The first job: a literature review` to `The baseline`, with the scope, the findings and the checks under their headings; it stays whole."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "70d885f3dc06"
+answer = "They stay apart and already link: the front page lists `decisions` in its `Contenu` table, and the index lists each record; a new record changes both by design."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "821052a87dee"
+answer = "They stay apart and already link: the front page lists `decisions` in its `Contents` table, and the index lists each record; a new record changes both by design."
