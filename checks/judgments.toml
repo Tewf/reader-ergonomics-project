@@ -81,7 +81,7 @@ answer = "It stays: `shapes/examples` holds the filled examples of the shapes, o
 check = "paraphrase"
 path = "evidence/project-method/frame.md"
 question = "says nearly what shapes/examples/first-job/problem.md (line 7) says, similarity 0.97: one fact in two places?"
-file = "c32bf8bbd9c6"
+file = "abef2db6607b"
 answer = "No: the frame holds the source under `The problem in one sentence`; the example's Problem line restates it on purpose, as the project shape asks of every project written in it, and links the frame."
 
 [[answer]]
@@ -164,8 +164,8 @@ answer = "It stays: `Project` names one role, the front page of the repository. 
 [[answer]]
 check = "logical-lines"
 path = "evidence/project-method/protocol.md"
-question = "131 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "86b09c3cfa1f"
+question = "132 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "ac85410bccba"
 answer = "It stays: `Protocol: how the pool was built` names one role, the record of one pool. Its sections are the steps of that record, not roles of their own."
 
 [[answer]]
@@ -186,14 +186,14 @@ answer = "Link, do not share a folder: the front page of `Project` points to the
 check = "document-mode"
 path = "evidence/project-method/protocol.md"
 question = "reads about equally as explanation and how-to: one mode per document?"
-file = "86b09c3cfa1f"
+file = "ac85410bccba"
 answer = "Reference: the record of how the pool was built, read by its headings, such as `Formal search`. Its sections are looked up, not followed as a task."
 
 [[answer]]
 check = "name-content"
 path = "evidence/project-method/against.md"
-question = "the name 'against' and the opening are far apart in meaning (0.09): does the name predict the content?"
-file = "3a7451525df2"
+question = "the name 'against' and the opening are far apart in meaning (0.13): does the name predict the content?"
+file = "c5894ebf8169"
 answer = "Yes: the opening, under the heading `Against`, sets out the case against the repository's own claims, as the name says."
 
 [[answer]]
@@ -206,8 +206,8 @@ answer = "Yes: the opening, under the heading `Position`, sets out what is known
 [[answer]]
 check = "name-content"
 path = "evidence/project-method/protocol.md"
-question = "the name 'protocol' and the opening are far apart in meaning (0.11): does the name predict the content?"
-file = "86b09c3cfa1f"
+question = "the name 'protocol' and the opening are far apart in meaning (0.19): does the name predict the content?"
+file = "ac85410bccba"
 answer = "Yes: the heading `Protocol: how the pool was built` says what the file holds, and the opening sections follow it."
 
 [[answer]]
@@ -279,3 +279,17 @@ path = "README.md"
 question = "changed together with decisions/README.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "c00667a45ce5"
 answer = "Link, do not move them into one folder: a new choice adds a record and the index that links it, so the two change together by design. `Project`"
+
+[[answer]]
+check = "document-mode"
+path = "evidence/project-method/frame.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "abef2db6607b"
+answer = "Reference: the file follows its shape and is consulted part by part; its heading `Frame: the problem and its names` names the one thing it holds."
+
+[[answer]]
+check = "name-content"
+path = "evidence/project-method/state-of-the-art.md"
+question = "the name 'state' and the opening are far apart in meaning (0.03): does the name predict the content?"
+file = "9b42a29439e2"
+answer = "The name predicts the content: the file opens with the heading `State of the art`, which says what it holds."

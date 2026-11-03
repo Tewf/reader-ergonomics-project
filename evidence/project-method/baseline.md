@@ -2,6 +2,8 @@
 
 Step 5 of the review: the baseline the repository's method is compared with, and how. The review is finished because this page names it. Terms are in [frame](frame.md).
 
+**Shape:** [baseline](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/baseline.md)
+
 ## The maintainer's practice, written down for this review
 
 1. State the problem in one sentence, then find what the field calls it.

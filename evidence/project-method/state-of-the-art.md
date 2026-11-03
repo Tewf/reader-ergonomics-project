@@ -2,6 +2,8 @@
 
 Step 3 of the review: for each question, the best evidence apart from the practice most adopted. They are two records, held by different sources. Terms are in [frame](frame.md).
 
+**Shape:** [state of the art](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/state-of-the-art.md)
+
 ## Best evidence
 
 | Question | Holder | Method | Measured how |

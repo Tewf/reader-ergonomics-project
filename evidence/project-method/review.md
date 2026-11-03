@@ -2,6 +2,8 @@
 
 Step 2 of the review: what each strand holds, by question. Existing reviews come first. Terms are in [frame](frame.md); grades and reading depth per source are in [sources](sources.md). A number from an abstract or a summary is marked (secondary).
 
+**Shape:** [review](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/review.md)
+
 ## Strand 0: existing reviews
 
 - Nawaz 2022 reviews 23 studies of rework, 2009 to 2020, in global software development only. It sorts causes into 6 categories; communication and requirements management are reported most (secondary).

@@ -2,6 +2,8 @@
 
 Every search, count and rule of this first pass, run on 2026-11-02 by one reviewer. Terms are in [frame](frame.md); the pool is in [sources](sources.md). The method the family's reviews share is in the [topic's evidence](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/evidence/README.md).
 
+**Shape:** [protocol](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/protocol.md)
+
 ## 1. Why grey literature
 
 Garousi 2019, Table 4, answered for this topic.

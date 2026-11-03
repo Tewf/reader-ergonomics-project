@@ -2,6 +2,8 @@
 
 Every work this repository cites, once: Key, citation, and a stable link.
 
+**Shape:** [references](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/references.md)
+
 | Key | Citation | Link |
 |---|---|---|
 | Altmann 2002 | Altmann, Trafton (2002). Memory for goals: an activation-based model. Cognitive Science 26(1) | https://doi.org/10.1207/s15516709cog2601_2 |

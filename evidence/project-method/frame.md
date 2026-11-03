@@ -2,6 +2,8 @@
 
 Step 1 of the review on the method of a project, read on 2026-11-02. It states the problem, gives the field's names beside the repository's, and turns the front page's four questions into sub-questions.
 
+**Shape:** [frame](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/frame.md)
+
 ## The problem in one sentence
 
 How one person goes from a stated problem to a checked result with the fewest wasted round trips, and leaves a trail another person can resume.

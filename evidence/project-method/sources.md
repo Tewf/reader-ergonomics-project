@@ -2,6 +2,8 @@
 
 The pool of this first pass, read on 2026-11-02: 33 formal works and 5 grey sources. On 2026-11-03 two formal works were added by forward citation, so the pool is 35 formal and 5 grey. Searches are in [protocol](protocol.md); terms in [frame](frame.md).
 
+**Shape:** [sources](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/sources.md)
+
 A source marked located was found and its record checked, but its text was not opened. A claim that rests on it is marked as such. Below 10 of 20, a grey source is an example of practice only.
 
 ## Flow

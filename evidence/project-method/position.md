@@ -2,6 +2,8 @@
 
 Step 4 of the review: what the evidence allows this repository to claim, and what it would add. Each "not found" is a statement about these searches, not about the world. Terms are in [frame](frame.md).
 
+**Shape:** [position](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/position.md)
+
 ## Known
 
 - A process from problem to evaluated result exists in research: six activities, a nominal order, any entry point (Peffers 2006).

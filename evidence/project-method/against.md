@@ -2,6 +2,8 @@
 
 The evidence against the repository's rules and the controversies. Nothing is dropped to make a rule look stronger. Terms are in [frame](frame.md).
 
+**Shape:** [against](https://github.com/Tewf/reader-ergonomics-review/blob/a7f405f26f14cd188291e2a86b630121c4302a94/shapes/against.md)
+
 ## The cost of late defects
 
 - Boehm 2001 says a late fix is often 100 times dearer, and gives 5:1 for small noncritical systems. The word "often" was added in the updated list.
