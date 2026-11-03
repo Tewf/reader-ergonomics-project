@@ -3,6 +3,17 @@
 The releases this repository pins, newest first, in the form of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 A pin move is recorded here, not in decisions/.
 
+## [0.1.0] - 2026-11-03
+
+### Added
+
+- The first release: a first-pass review of 38 sources in `evidence/project-method/`, naming its baseline B1.
+- The card `standard.md` and four principles: a project is six topics, leave a trail, name the baseline, specify before
+  building.
+- The project shape with one filled example, and its check in `checks/local/` with 19 unit tests.
+- Four decision records, and a take-it block on both front pages.
+- Pinned reader-ergonomics v1.19.2 (`b9732b9`), as below.
+
 ## 2026-11-03
 
 ### Added

@@ -10,12 +10,49 @@ documents it produces belong to the genres.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-02):** the first pass of the literature review is written: 38 sources, five steps, a named baseline.
-> The [card](standard.md) holds four principles, the [project shape](shapes/project.md) has one filled example and a check (decisions 0003 and 0004). The name stays, for the reason in decision 0002. It is not an official
+> **Status (2026-11-03):** version 0.1.0. Built: the first pass of the literature review, 38 sources, five steps, a named baseline;
+> the [card](standard.md) with four principles; the [project shape](shapes/project.md) with one filled example and a check with 19 unit tests.
+> Open: the comparison with the baseline is named, not run, and no step is measured. The name stays, for the reason in decision 0002. It is not an official
 > standard, not a peer-reviewed study and not a new result.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
 > reader-ergonomics was made. Corrections are welcome as issues.
+
+## Take it
+
+The project shape is meant to be copied and kept as your own. Copy it from a tagged release
+([tags](https://github.com/Tewf/reader-ergonomics-project/tags)), so a later change here never changes your copy.
+
+1. Copy [shapes/project.md](shapes/project.md), the shape, and [checks/local/project_shape.py](checks/local/project_shape.py),
+   the check, into the same paths of your repository. [shapes/examples/first-job/](shapes/examples/first-job/) is a
+   filled project to start from.
+2. Write one folder per project, with the six topics: problem, scope, review, baseline, plan and trail.
+3. Add `checks/config.toml`; the last two tables are for a repository with no site stylesheet:
+
+   ```toml
+   extends = "reader-ergonomics"
+
+   [project_shape]
+   parts = ["problem.md", "scope.md", "review.md", "baseline.md", "plan.md", "trail.md"]
+
+   [readable_measure]
+   stylesheets = []
+
+   [sufficient_contrast]
+   stylesheets = []
+   ```
+
+4. Pin the standard by commit (`ref:` in [checks.yml](.github/workflows/checks.yml)) and run its checks; the project
+   check runs beside them:
+
+   ```sh
+   git clone https://github.com/Tewf/reader-ergonomics
+   git -C reader-ergonomics checkout b9732b9814c71768f722691f3c5049ec2b8ed378
+   python3 reader-ergonomics/checks/run.py path/to/your/repository
+   ```
+
+5. How to take your own version, and where a disagreement goes: the standard's
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/README.md#take-your-own-version).
 
 ## Where it sits
 

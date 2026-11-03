@@ -10,12 +10,39 @@ projet est le sujet ; les documents qu'il produit relèvent des genres.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-02) :** la première passe de la revue de littérature est écrite : 38 sources, cinq étapes, une
-> référence nommée. La [fiche](standard.md) tient quatre principes, la [forme du projet](shapes/project.md) a un exemple rempli et une vérification (décisions 0003 et 0004). Le nom reste, pour la raison de la décision 0002.
+> **État (2026-11-03) :** version 0.1.0. Fait : la première passe de la revue de littérature, 38 sources, cinq étapes, une
+> référence nommée ; la [fiche](standard.md) avec quatre principes ; la [forme du projet](shapes/project.md) avec un exemple rempli et une vérification de 19 tests unitaires.
+> Ouvert : la comparaison avec la référence est nommée, pas faite, et aucune étape n'est mesurée. Le nom reste, pour la raison de la décision 0002.
 > Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
 > reader-ergonomics. Les corrections sont bienvenues sous forme d'issues.
+
+## La prendre
+
+La forme du projet est faite pour être copiée et gardée. Copiez-la depuis une version étiquetée
+([étiquettes](https://github.com/Tewf/reader-ergonomics-project/tags)), pour qu'un changement ultérieur ici ne change
+jamais votre copie.
+
+1. Copiez [shapes/project.md](shapes/project.md), la forme, et [checks/local/project_shape.py](checks/local/project_shape.py),
+   la vérification, aux mêmes chemins de votre dépôt. [shapes/examples/first-job/](shapes/examples/first-job/) est un
+   projet rempli pour partir de lui.
+2. Écrivez un dossier par projet, avec les six topics : problem, scope, review, baseline, plan et trail.
+3. Ajoutez `checks/config.toml` avec `extends = "reader-ergonomics"`, la table `[project_shape]` et, pour un dépôt sans
+   feuille de style de site, deux tables à `stylesheets = []` : le fichier complet est à l'étape 3 de
+   [la version anglaise](README.md#take-it).
+4. Épinglez la norme par son commit (`ref:` dans [checks.yml](.github/workflows/checks.yml)) et lancez ses
+   vérifications ; celle du projet tourne à côté :
+
+   ```sh
+   git clone https://github.com/Tewf/reader-ergonomics
+   git -C reader-ergonomics checkout b9732b9814c71768f722691f3c5049ec2b8ed378
+   python3 reader-ergonomics/checks/run.py chemin/vers/votre/depot
+   ```
+
+5. Comment prendre votre propre version, et où va un désaccord : la section
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/README.md#take-your-own-version)
+   de la norme.
 
 ## Où il se place
 

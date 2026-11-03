@@ -111,3 +111,38 @@ path = "README.md"
 question = "changed together with decisions/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "821052a87dee"
 answer = "They stay apart and already link: the front page lists `decisions` in its `Contents` table, and the index lists each record; a new record changes both by design."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "101 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "e9ae65da4a9c"
+answer = "One role: la page d'accueil du projet, lue pour `Périmètre` et `Ce que la revue a trouvé`; `La prendre` y ajoute un pointeur vers la copie de la forme, et le fichier reste entier."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "98 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "f87cbc90e78f"
+answer = "One role: the project's front page, read for `Scope` and `What the review found`; `Take it` adds a pointer to copying the shape, so the file stays whole."
+
+[[answer]]
+check = "co-change"
+path = "AGENTS.md"
+question = "changed together with decisions/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "8c93c7652e85"
+answer = "They stay apart: `AGENTS.md` says how to change the repository and `decisions` holds its records; they moved together when a record changed the working rules."
+
+[[answer]]
+check = "co-change"
+path = "README.fr.md"
+question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e9ae65da4a9c"
+answer = "They stay apart: `decisions` holds one record per choice and the front page lists them under `Contenu`, so a new record changes both; the front page links the folder."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with decisions/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "f87cbc90e78f"
+answer = "They stay apart: `decisions` holds one record per choice and the front page lists them under `Contents`, so a new record changes both; the front page links the folder."
