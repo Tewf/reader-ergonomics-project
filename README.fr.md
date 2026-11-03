@@ -36,12 +36,12 @@ jamais votre copie.
 
    ```sh
    git clone https://github.com/Tewf/reader-ergonomics
-   git -C reader-ergonomics checkout b9732b9814c71768f722691f3c5049ec2b8ed378
+   git -C reader-ergonomics checkout 4f99372093729dacf982e9174e94f6b8793c513d
    python3 reader-ergonomics/checks/run.py chemin/vers/votre/depot
    ```
 
 5. Comment prendre votre propre version, et où va un désaccord : la section
-   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/README.md#take-your-own-version)
+   [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/README.md#take-your-own-version)
    de la norme.
 
 ## Où il se place
@@ -72,7 +72,7 @@ digraph where_it_sits {
 
 - **Il s'appuie sur le [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/shapes/topic.md)** (reader-ergonomics-topic v0.6.1) : chaque étape d'un
   projet est un topic, avec son titre, son résumé et ses parties.
-- **Il obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/standard.md)** (v1.19.2) et exécute ses vérifications en CI.
+- **Il obéit à [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/standard.md)** (v1.20.0) et exécute ses vérifications en CI.
 - **Il ne pointe que vers le bas.** Les deux sont épinglés par commit ; aucun ne pointe vers ce dépôt. Son pendant avec
   un modèle dans la boucle est [ai-augmented-project](https://github.com/Tewf/ai-augmented-project), un niveau au-dessus.
 - **La famille qu'il reflète** est cartographiée dans [ai-augmented](https://github.com/Tewf/ai-augmented) ; le pont entre les deux est
@@ -86,7 +86,7 @@ digraph where_it_sits {
 | dedans | chaque étape écrite comme un topic : une affirmation, son résumé, ses parties | la personne ne se perd pas, et un lecteur suit le raisonnement |
 | dedans | ce qui réduit les allers-retours : ce qui est décidé avant de commencer, ce qui revient à la personne, quand la référence est nommée | le coût d'un projet, c'est surtout le travail refait |
 | dedans | le dossier qu'un travail laisse : ce qui a été demandé, trouvé, produit, et où cela vit | une seconde personne, ou la même plus tard, reprend à partir de là |
-| dehors | l'écriture d'un document donné : rapport, conception, exposé, preuve | la [famille reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/extending.md) tient la forme de chaque genre |
+| dehors | l'écriture d'un document donné : rapport, conception, exposé, preuve | la [famille reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/extending.md) tient la forme de chaque genre |
 | dehors | le document de conception et la fiche de décision | [reader-ergonomics-software-design](https://github.com/Tewf/reader-ergonomics-software-design) les tient ; ce dépôt les lie quand une étape en a besoin |
 | dehors | un modèle de langue ou une machine dans la boucle | [ai-augmented-project](https://github.com/Tewf/ai-augmented-project) |
 

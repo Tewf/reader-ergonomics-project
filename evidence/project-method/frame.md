@@ -51,7 +51,7 @@ One row per term. Every file of this folder uses these names.
 
 ## Not held here
 
-- The outline and the shallow hierarchy are reviewed in reader-ergonomics, as [overview first](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/principles/document/overview-first.md) and [shallow outline](https://github.com/Tewf/reader-ergonomics/blob/b9732b9814c71768f722691f3c5049ec2b8ed378/principles/document/shallow-outline.md). This review links them.
+- The outline and the shallow hierarchy are reviewed in reader-ergonomics, as [overview first](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/principles/document/overview-first.md) and [shallow outline](https://github.com/Tewf/reader-ergonomics/blob/4f99372093729dacf982e9174e94f6b8793c513d/principles/document/shallow-outline.md). This review links them.
 - The decision record belongs to reader-ergonomics-software-design.
 
 ## See also
