@@ -18,7 +18,7 @@ A source marked located was found and its record checked, but its text was not o
 | Read at abstract level | 13 formal: 11 from the first pass, and Hohn 2002 and Mettler 2014 |
 | Read only through secondary summaries | 1 formal (Hembree 1992) |
 | Located, text not opened | 16 formal, 1 grey |
-| Grey scored | 4: three at 10 or more, one below |
+| Grey scored | 4 by the first reviewer; after the second rating and the rereads, two at 10 or more and two below |
 
 ## Formal sources
 
@@ -64,14 +64,14 @@ Quality is the evidence grade, with what the grade rests on. A number from an ab
 
 ## Grey sources
 
-Scores follow Garousi 2019, Table 7: authority A (of 4), methodology M (6), objectivity O (4), date D (1), position P (1), novelty N (2), impact I (1), outlet tier T (1). One reviewer scored; there is no second rater.
+Scores follow Garousi 2019, Table 7: authority A (of 4), methodology M (6), objectivity O (4), date D (1), position P (1), novelty N (2), impact I (1), outlet tier T (1). The first reviewer scored all four. A second rater then scored them blind, and each disagreement of more than 3 points was resolved by rereading the whole text; see [protocol](protocol.md), section 12.
 
 | Key | Kind | Found via | Read | Score of 20 | Used in |
 |---|---|---|---|---|---|
-| Schwaber 2020 | grey tier 1 | direct | guide read through a summary | A 4, M 1.5, O 2, D 1, P 0.5, N 1.5, I 1, T 0.5 = 12 | review Q1, state of the art |
-| Singer 2019 | grey tier 1 | direct | chapter list and definitions | A 3, M 2.5, O 2, D 0.5, P 0.5, N 2, I 1, T 1 = 12.5 | review Q1, baseline |
-| Chapman 2000 | grey tier 1 | S8 | sections 1.1 and 1.4, the contents | A 4, M 2.5, O 3, D 1, P 1, N 2, I 1, T 1 = 15.5 | review Q1, baseline |
-| Ubl 2020 | grey tier 3 | direct | first section | A 2.5, M 1, O 2, D 1, P 0, N 1.5, I 1, T 0 = 9: below 10, an example of practice only | review Q1 (example) |
+| Schwaber 2020 | grey tier 2 | direct | the whole guide, read on 2026-11-03 (first pass: through a summary) | final 10.0; first reviewer 12; second rater 8: A 2.5, M 2, O 1.5, D 1, P 0, N 1.5, I 1, T 0.5. At the threshold | review Q1, state of the art |
+| Singer 2019 | grey tier 1 | direct | the web edition's contents page, read on 2026-11-03 (first pass: chapter list and definitions) | final 9; first reviewer 12.5; second rater 0: A 2, M 4, O 0, D 0, P 0, N 2, I 0, T 1. Below the threshold: an example of practice only | review Q1 (example) |
+| Chapman 2000 | grey tier 1 | S8 | the first 25,000 characters, the introduction and the contents, read on 2026-11-03 (first pass: sections 1.1 and 1.4, the contents) | final 14.5; first reviewer 15.5; second rater 11.5: A 3, M 5, O 1.5, D 1, P 0, N 2, I 1, T 1 | review Q1, baseline |
+| Ubl 2020 | grey tier 3 | direct | the whole post, read on 2026-11-03 (first pass: first section) | final 9.5; first reviewer 9; second rater 3: A 1, M 4, O 1, D 1, P 0, N 1.5, I 1, T 0. Below the threshold: an example of practice only | review Q1 (example) |
 | Booth 2016 | grey tier 1 | lead (brief) | located; not opened, not scored | not scored: a practitioner book | frame |
 
 ## Keys

@@ -41,7 +41,7 @@ Step 4 of the review: what the evidence allows this repository to claim, and wha
 
 ## Where practice runs ahead of the evidence
 
-- Scrum, Shape Up and CRISP-DM prescribe goals and success criteria before work; the parts read cite no measurement.
+- Scrum and CRISP-DM prescribe goals and success criteria before work; the text read cites no measurement. Shape Up is below the threshold and is not counted here.
 - The trail guides prescribe files; no study tests them.
 
 ## Where evidence is ignored by practice

@@ -31,7 +31,7 @@ The evidence against the repository's rules and the controversies. Nothing is dr
 
 ## Weak measurement of frameworks
 
-- Serrador 2015 is correlational. The guides of Schwaber 2020, Singer 2019 and Chapman 2000 cite no measurement in the parts read.
+- Serrador 2015 is correlational. The guides of Schwaber 2020 and Chapman 2000 cite no measurement in the text read on the second rating. Chapman's introduction says CRISP-DM was validated on a narrow set of projects: a stated limit, not a measure. Singer 2019 is below the threshold and cites none.
 - Ubl 2020 is the owner's claim about its own practice and scores below the threshold.
 
 ## What a skeptic could say of this review

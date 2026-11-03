@@ -3,7 +3,8 @@
 The review behind this repository, a first pass of 38 sources. It asks which steps written before the work starts are measured to cut rework, and what a finished job must leave for a second person to resume it.
 
 - It holds 40 sources: 35 formal and 5 grey.
-- Grey: 3 score 10 or more of 20, 1 scores below it (an example of practice only) and 1 is located, not scored; none is a controlled study.
+- Grey: 2 score 10 or more of 20 after a second rating: Schwaber 2020 at 10 and Chapman 2000 at 14.5.
+- 2 grey sources score below it and are examples of practice only: Singer 2019 at 9 and Ubl 2020 at 9.5. 1 is located, not scored. None is a controlled study.
 - Formal: 5 read in the text or the sections cited, 13 at abstract level, 1 through secondary summaries, 16 located with the text not opened.
 - It is a first pass. Read the limits in [protocol](protocol.md) before relying on a number.
 

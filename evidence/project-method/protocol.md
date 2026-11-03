@@ -76,7 +76,7 @@ Counts are from OpenAlex, title and abstract, phrase search, on 2026-11-02, with
 
 ## 8. Quality of grey sources
 
-Garousi 2019, Table 7, 20 criteria, threshold 10. Scores are in [sources](sources.md). One grey source, Ubl 2020, falls below it.
+Garousi 2019, Table 7, 20 criteria, threshold 10. Scores are in [sources](sources.md). The first reviewer's scores were checked by a second rating and reread (section 12). After both, two grey sources fall below the threshold: Singer 2019 (9) and Ubl 2020 (9.5).
 
 ## 9. Extraction and synthesis
 
@@ -131,3 +131,50 @@ Screened, not added, from the title of a 2025 requirements paper, which is not i
 Numbers read in abstracts are marked secondary. Hohn 2002 reports two experiments with 223 elementary students (secondary).
 
 Not searched: other citation indexes, and the citing works of the other 30 sources, which the brief did not ask for.
+
+## 12. Second rating of the grey sources
+
+A second rater scored each grey source blind. It saw the criteria of section 8 and one source's text, nothing else, and it did not see the first scores. Each source was one request, so four requests were made. Each request asked for the eight subtotals, the total and the threshold decision.
+
+The text given was:
+
+- Schwaber 2020: the whole guide, 25,088 characters.
+- Singer 2019: the contents page of the web edition, 4,047 characters. The page holds no more text.
+- Chapman 2000: the first 25,000 of 174,000 characters: the introduction and the contents.
+- Ubl 2020: the first 25,000 of 29,035 characters.
+
+**Agreement, before any reread.** The total scores were 12 and 8, 12.5 and 0, 15.5 and 11.5, and 9 and 3: a mean absolute difference of 6.6 on the total.
+
+| Group | Mean absolute difference over the four sources |
+|---|---|
+| A authority | 1.75 |
+| M methodology | 1.38 |
+| O objectivity | 1.25 |
+| D date | 0.38 |
+| P position | 0.5 |
+| N novelty | 1.5 |
+| I impact | 1.0 |
+| T outlet | 0.38 |
+
+Across the 32 group subtotals the mean absolute difference is 1.0.
+
+On the threshold decision, the two raters agreed on two of four sources: Chapman 2000 above, Ubl 2020 below. Kappa is 0.2. With four sources this is too few to read further; it is reported as it is.
+
+**Resolution.** Every source differed by more than 3 points on the total, so each was reread whole, group by group. A score changed only with the reason written here.
+
+- **Singer 2019, 12.5 to 9.** A 3 to 2: the publisher is the company itself (A1 0.5), and no other work is named (A3 0). M 2.5 to 4: the contents name a stated method (shaping and betting, M2 1) and three case studies (M6 1). O 2 to 0: a contents page shows no balance, objectivity or conclusions, and a part not seen scores 0. D 0.5 to 0: the page gives no date. P 0.5 to 0: no related source is named. I 1 to 0: no citation or adoption count is shown. Below the threshold: an example of practice only. The first reviewer's notes mention definitions that the page does not contain.
+- **Chapman 2000, 15.5 to 14.5.** A 4 to 3: no other work of the authors is named in the text read. M 2.5 to 5: the introduction, now in view, states a limit, validation on a narrow set of projects (M4), and names use at three companies (M6). O 3 to 1.5: the authors' firms sell the software and services the guide describes (O3 0). P 1 to 0: no related method is named in the text read. Above the threshold; the grade does not change.
+- **Schwaber 2020, 12 to 10.** A 4 to 2.5: the guide is published by its own authors (A1 0.5), and no other work is named (A3 0). M 1.5 to 2: the aim and the question of the guide are in its opening (M1 and M5). O 2 to 1.5: the guide weighs no alternative (O1 0). P 0.5 to 0: no related source is named in the text. Above the threshold, at 10.
+- **Ubl 2020, 9 to 9.5.** A 2.5 to 1: a personal blog (A1 0); the author writes as an insider with no byline in the text (A2 0.5). M 1 to 4: the whole post, not the first section, states its aim, its limit (writing a design doc is overhead), a question and a case (Google). O 2 to 1: the post weighs overhead against benefit (O1 0.5), and it describes its author's employer (O3 0). D stays at 1: the page's structured data state the publication date, 2020-07-06, though the body does not. Below the threshold: an example of practice only.
+
+**What the disagreement was about.** The second rater scored the text as if nothing else were given. It gave 0 to parts that the text does show: the contents of Singer 2019, and the author's insider position in Ubl 2020.
+
+The first reviewer's scores on Singer 2019 rested in part on material outside the text read. The reread removed that part.
+
+**Limits.**
+
+- One of the two raters is a language model, so the second rating is not fully independent of the first.
+- The first reviewer had read some sources only in part. The reread read more, so the final scores use more text than the blind rating. The table of section 12 records both.
+- Four sources give too few cases for kappa.
+- The bibliography link for Chapman 2000 returned 404 on 2026-11-03. The bibliography now links an archived copy of 2021, which is the file read here.
+- The Scrum guide's outlet tier is 2, a company's own page, as its score of 0.5 already assumed. The label in the first table said tier 1 and is corrected.

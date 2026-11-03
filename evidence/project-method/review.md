@@ -47,7 +47,7 @@ Step 2 of the review: what each strand holds, by question. Existing reviews come
 | Source | What it prescribes before building | Measured |
 |---|---|---|
 | Schwaber 2020 | a Product Goal, a Sprint Goal and a Definition of Done, as commitments; a sprint of one month or less | nothing in the guide |
-| Singer 2019 | shaping an idea before a bet; a pitch; a six-week cycle and a two-week cool-down | nothing in the page read |
+| Singer 2019 | shaping an idea before a bet; a pitch; a six-week cycle and a two-week cool-down | nothing in the contents page read; below the threshold on the second rating, an example of practice only |
 | Chapman 2000 | phase 1: business objectives, situation, success criteria, a project plan; the process loops back | nothing in the sections read |
 | Ubl 2020 | a design doc before coding, to find design issues while changes are cheap; an example only, below the threshold | the owner's claim |
 | Serrador 2015 | agile use against project success | correlational, 1,002 projects (secondary) |
