@@ -8,8 +8,8 @@ title: "reader-ergonomics-project (work in progress)"
 abstract: >-
   How one person prepares and runs a project, from a problem to its result, with the fewest round trips: scope, review, baseline, plan, execution, refinement, each step a topic; and the folder a job leaves behind. A first-pass review that names its baseline, four principles, a project shape and its check.
 type: software
-version: 0.1.0
-date-released: 2026-11-03
+version: 0.1.1
+date-released: 2026-11-04
 authors:
   - name: "Tewf"
 repository-code: "https://github.com/Tewf/reader-ergonomics-project"
