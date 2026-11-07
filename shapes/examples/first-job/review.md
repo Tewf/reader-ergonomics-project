@@ -10,7 +10,7 @@ The problem in one sentence and the field's names beside the repository's: [fram
 
 ## Literature review
 
-38 sources, 33 formal and 5 grey, found by name, acronym and author, surveys first. Sixteen formal works are located, not opened: [protocol](../../../evidence/project-method/protocol.md), [sources](../../../evidence/project-method/sources.md).
+40 sources, 35 formal and 5 grey, found by name, acronym and author, surveys first; two of the formal works came by forward citation on 2026-11-03. Sixteen formal works are located, not opened: [protocol](../../../evidence/project-method/protocol.md), [sources](../../../evidence/project-method/sources.md).
 
 ## State of the art
 

@@ -1,6 +1,6 @@
 # Project method: from a problem to a result, with fewer round trips
 
-The review behind this repository, a first pass of 38 sources. It asks which steps written before the work starts are measured to cut rework, and what a finished job must leave for a second person to resume it.
+The review behind this repository, a first pass of 40 sources. It asks which steps written before the work starts are measured to cut rework, and what a finished job must leave for a second person to resume it.
 
 - It holds 40 sources: 35 formal and 5 grey.
 - Grey: 2 score 10 or more of 20 after a second rating: Schwaber 2020 at 10 and Chapman 2000 at 14.5.

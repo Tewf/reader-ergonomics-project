@@ -3,6 +3,12 @@
 The releases this repository pins, newest first, in the form of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 A pin move is recorded here, not in decisions/.
 
+## [0.1.2] - 2026-11-07
+
+### Fixed
+
+- The review's count is 40 sources (35 formal and 5 grey) everywhere. Five files still said 38, the count before the two works added by forward citation on 2026-11-03; the flow table of the sources file had no row for those two. The status line names the current release.
+
 ## [0.1.1] - 2026-11-04
 
 ### Changed

@@ -1,6 +1,6 @@
 # The first job: a literature review on the method of a project
 
-A literature review of 38 sources on how one person goes from a problem to a result with few round trips. It ends in a named baseline. This project is the first job of the repository, written in the project shape.
+A literature review of 40 sources on how one person goes from a problem to a result with few round trips. It ends in a named baseline. This project is the first job of the repository, written in the project shape.
 
 **Shape:** [project](../../project.md)
 

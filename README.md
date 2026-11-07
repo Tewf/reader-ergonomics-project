@@ -10,7 +10,7 @@ documents it produces belong to the genres.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-03):** version 0.1.0. Built: the first pass of the literature review, 40 sources, five steps, a named baseline;
+> **Status (2026-11-07):** version 0.1.2. Built: the first pass of the literature review, 40 sources, five steps, a named baseline;
 > the [card](standard.md) with four principles; the [project shape](shapes/project.md) with one filled example and a check with 19 unit tests.
 > Open: the comparison with the baseline is named, not run, and no step is measured. The name stays, for the reason in decision 0002. It is not an official
 > standard, not a peer-reviewed study and not a new result.

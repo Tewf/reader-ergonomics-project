@@ -6,7 +6,7 @@ The review behind this repository, on the method of a project, and the bibliogra
 
 | Part | Summary |
 |---|---|
-| [project-method](project-method/) | a first pass, 38 sources: which steps written before the work are measured to cut rework, and what a job must leave to be resumed |
+| [project-method](project-method/) | a first pass, 40 sources: which steps written before the work are measured to cut rework, and what a job must leave to be resumed |
 | [bibliography](bibliography.md) | every work cited, once, with a stable link |
 
 ## See also

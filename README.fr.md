@@ -10,7 +10,7 @@ projet est le sujet ; les documents qu'il produit relèvent des genres.
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-03) :** version 0.1.0. Fait : la première passe de la revue de littérature, 40 sources, cinq étapes, une
+> **État (2026-11-07) :** version 0.1.2. Fait : la première passe de la revue de littérature, 40 sources, cinq étapes, une
 > référence nommée ; la [fiche](standard.md) avec quatre principes ; la [forme du projet](shapes/project.md) avec un exemple rempli et une vérification de 19 tests unitaires.
 > Ouvert : la comparaison avec la référence est nommée, pas faite, et aucune étape n'est mesurée. Le nom reste, pour la raison de la décision 0002.
 > Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.

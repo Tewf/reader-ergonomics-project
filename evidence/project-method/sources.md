@@ -14,8 +14,9 @@ A source marked located was found and its record checked, but its text was not o
 | Grey strings run | 4 web strings and 4 direct visits |
 | Titles screened | up to 10 per string; the exact number was not logged |
 | Forward citations, 2026-11-03 | 3 works screened: 378 titles and 6 abstracts; 2 added (protocol, section 11) |
-| Reached through a string or a direct visit | 30 of the 38; several also named by the brief |
-| Reached only from the brief's leads or the reviewer's recall, then checked against a bibliographic record | 8 of the 38 (Simon 1969, Webster 2002, Garousi 2019, Kitchenham 2009, Polya 1945, Kellogg 1988, Flyvbjerg 2006, Booth 2016) |
+| Reached through a string or a direct visit | 30 of the 40; several also named by the brief |
+| Reached only from the brief's leads or the reviewer's recall, then checked against a bibliographic record | 8 of the 40 (Simon 1969, Webster 2002, Garousi 2019, Kitchenham 2009, Polya 1945, Kellogg 1988, Flyvbjerg 2006, Booth 2016) |
+| Reached by forward citation from a read work, 2026-11-03 | 2 of the 40 (Hohn 2002, Mettler 2014) |
 | Read in the text or the sections cited | 5 formal, 4 grey |
 | Read at abstract level | 13 formal: 11 from the first pass, and Hohn 2002 and Mettler 2014 |
 | Read only through secondary summaries | 1 formal (Hembree 1992) |
