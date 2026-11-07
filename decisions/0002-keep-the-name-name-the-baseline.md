@@ -2,7 +2,7 @@
 
 **Decision:** The review found no single field name for the problem, so the repository keeps its provisional name, and B1 is the baseline the maintainer's practice is compared with.
 
-**Status:** accepted, 2026-11-02. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/shapes/decision-record.md).
+**Status:** accepted, 2026-11-02. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/shapes/decision-record.md).
 
 ## Context
 

@@ -2,11 +2,11 @@
 
 **Decision:** The card holds four principles, specify before building, name the baseline, leave a trail and a project is six topics; the missing measurements and the plan's parts stay findings.
 
-**Status:** accepted, 2026-11-03. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/shapes/decision-record.md).
+**Status:** accepted, 2026-11-03. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/shapes/decision-record.md).
 
 ## Context
 
-- The extension contract asks a card of principles. A principle is a rule a program can read or a finding graded measured or supported with caveat; a convention enters only if a check enforces it ([extending](https://github.com/Tewf/reader-ergonomics/blob/2e5b6f0c3e67d2dc8195a63cf882d46170e79a5a/extending.md)).
+- The extension contract asks a card of principles. A principle is a rule a program can read or a finding graded measured or supported with caveat; a convention enters only if a check enforces it ([extending](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/extending.md)).
 - The review graded one finding [supported with caveat](../evidence/project-method/position.md), hasty specification as a source of rework, and the rest conventions ([review](../evidence/project-method/review.md)).
 - The project check [already enforces](0003-a-project-is-six-topics.md) the scope, the baseline, the trail and the six parts.
 
