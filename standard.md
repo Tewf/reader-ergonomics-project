@@ -2,7 +2,7 @@
 
 What running a project shares, as far as the evidence goes: write the scope before the work, name the baseline that
 ends the review, and leave a trail someone else can resume from. It extends
-[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/standard.md), the standard for any reader, and builds on the
+[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/standard.md), the standard for any reader, and builds on the
 [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/shapes/topic.md), the unit every step is written in: read the standard first, then the topic. This page adds only
 what a project changes. No step is measured to cut rework, so most grades are conventions.
 
@@ -14,7 +14,7 @@ what a project changes. No step is measured to cut rework, so most grades are co
 3. **Check:** copy `checks/local/` into your repository and run the standard's checks. `project-shape` finds each
    project root by its Shape line and reads its six parts.
 
-Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/standard.md#grades): measured, supported with caveat,
+Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/standard.md#grades): measured, supported with caveat,
 convention, not supported. Each principle states its grade and never claims more.
 
 ## Principles
